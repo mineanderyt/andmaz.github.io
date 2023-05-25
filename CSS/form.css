@@ -1,0 +1,141 @@
+* { /*Global Addings*/
+padding: 0;  margin: 0; 
+box-sizing: border-box;
+
+
+}
+
+.sectionform{
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.divform{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.divform2{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border: solid black 2px;
+    border-radius: 30px;
+    font-size: 0.7vw;
+    transition: background-color 1s ease;
+}
+
+.divform2:hover{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+    border: solid white 2px;
+    border-radius: 30px;
+    font-size: 0.7vw;
+    color: white;
+}
+
+.divformimg{
+    object-fit: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 2vw;
+     margin:0;
+    padding: 0;
+    font-family: Comic Sans;
+    font-weight: bold;
+    color: black;
+      text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+.imgform{
+    border-radius: 30px;
+    border: solid black 2px;
+    
+}
+
+.football-button {
+  background-color: black;
+  color: white;
+  border: solid white 2px;
+  padding: 12px 24px;
+  font-size: 1.4vw;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: cener;
+   transition: background-color 0.3s ease;
+}
+
+.football-button:hover {
+  background-color: white;
+    border: solid black 2px;
+    color: black;
+    font-weight: bold;
+}
+
+.buttonhome{
+    display: flex;
+    justify-content: center;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 0px) {
+.col-so-1 {width: 8.33%;}
+.col-so-2 {width: 16.66%;}
+.col-so-3 {width: 25%;}
+.col-so-4 {width: 33.33%;}
+.col-so-5 {width: 41.66%;}
+.col-so-6 {width: 50%;}
+.col-so-7 {width: 58.33%;}
+.col-so-8 {width: 66.66%;}
+.col-so-9 {width: 75%;}
+.col-so-10 {width: 83.33%;}
+.col-so-11 {width: 91.66%;}
+.col-so-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 400px) {
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 783px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}

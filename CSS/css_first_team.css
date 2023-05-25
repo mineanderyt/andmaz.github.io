@@ -1,0 +1,216 @@
+* { /*Global Addings*/
+padding: 0;  margin: 0; 
+box-sizing: border-box;
+}
+
+.sectiongallery{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sectionindividual{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: white;
+    transition: background-color 1s ease;
+}
+
+.divtext{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center; 
+}
+
+.divdorsal{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.divimg{
+    flex-wrap: wrap;
+    display: flex;
+    width: 50%;
+    align-content: end;
+    justify-content: center; 
+}
+
+.divtextoydorsal{
+    flex-wrap: wrap;
+    display: flex;
+    width: 50%;  
+}
+
+.margin{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bordertopbotright{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.img{
+    width: 40%;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4vw;
+    font-family: Comic Sans; 
+}
+
+.pdorsal{
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.marginleftright{
+    margin-bottom: 150px;
+}
+
+.margindorsal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 25px;
+    color: black;
+    font-family: Comic Sans;  
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid black 1px;
+}
+
+.divtitle{
+    width: 100%; 
+}
+
+.changecolor:hover{
+    background-color: black;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.limit{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.buttonfirstteam{
+    width: 8%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    font-size: 1vw;
+    font-family: Comic Sans;
+    margin-right: 5%;
+    margin-top: 1.2%;
+    color: white;
+}
+.divtablexml{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+#demo{
+
+    width: 100%;
+    border: 0.1vw double;
+    background-color: rgb(40,40,40,0.9);
+    text-align: center;
+    color: rgb(180,180,180,1);
+    border-color: rgb(180,180,180,1);
+    border-collapse: collapse;
+    
+}
+
+td{
+
+    padding: 1vw;
+    font-size: 1vw;
+    width: 25%;
+    
+
+}
+
+
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 0px) {
+.col-so-1 {width: 8.33%;}
+.col-so-2 {width: 16.66%;}
+.col-so-3 {width: 25%;}
+.col-so-4 {width: 33.33%;}
+.col-so-5 {width: 41.66%;}
+.col-so-6 {width: 50%;}
+.col-so-7 {width: 58.33%;}
+.col-so-8 {width: 66.66%;}
+.col-so-9 {width: 75%;}
+.col-so-10 {width: 83.33%;}
+.col-so-11 {width: 91.66%;}
+.col-so-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 400px) {
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
