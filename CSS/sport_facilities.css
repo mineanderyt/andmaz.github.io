@@ -1,0 +1,217 @@
+* { /*Global Addings*/
+padding: 0;  margin: 0; 
+box-sizing: border-box;
+}
+
+.bigdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+}
+
+.mediumdiv{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    
+}
+
+.smalldivs{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.smalldivs5{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 3vw;
+}
+.divfirsttitles{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.divimg{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+
+.imgmestalla{
+    width: 100%;
+    height: 100%;
+     object-fit: cover;
+    border-bottom-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+}
+
+.smalldiv{
+    
+    width: 100%;
+    padding-bottom: 4vw;
+    padding-top: 20vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(../images/indeximages/mestalla0.jpeg);
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    
+}
+
+.smalldivimg{
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.divcaracteristicas{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(200,200,200,1);
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    border-bottom-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+}
+.smalldivscaracteristicas{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.h2title{
+    width: 100%;
+    color: rgb(255, 103, 31, 1);
+    font-size: 2vw;
+    font-weight: 500;
+    
+}
+
+.h2caracteristicas1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 1vw;
+}
+.h2caracteristicas2{
+    text-align: center;
+    color: rgb(255, 103, 31, 1);
+    width: 100%;
+    font-size: 1vw;
+}
+
+p{
+    font-size: 0.85vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    font-weight: 500;
+}
+.h2titlewhite{
+    text-align: left;
+    color: white;
+    width: 100%;
+    font-size: 3vw;
+    font-weight:600;
+}
+
+.hrtitle{
+    
+    border-color: rgb(100, 100, 100, 1);
+    border-width: 0.1vw;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.hrtitle1{
+    
+    border-color: rgb(255, 103, 31, 1);
+    border-width: 0.15vw;
+    z-index: 1;
+    width: 100%;
+}
+
+body{
+    background-color:rgb(200,200,200,1);
+    background-image: url(../images/indeximages/escudooriginal.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: 2.5vw 2vw;
+    background-size: 6vw;
+}
+
+.smalldiv2{
+    
+    width: 100%;
+    padding-bottom: 4vw;
+    padding-top: 20vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(../images/indeximages/paterna.jpeg);
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    
+}
+
+.divimg1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.p1{
+    font-weight: bold;
+    padding-bottom: 5vw;
+    padding-top: 0vw;
+}
+
+

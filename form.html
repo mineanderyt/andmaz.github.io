@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--Open HTML tag and lang attribute established in English-->
+<html lang="en">
+<!--Open head tag-->
+<head>
+<!--Title of the page-->    
+<title>Final Proyect VCF</title>
+<!--Link for the normalizer-->    
+<link rel="stylesheet" href="CSS/w3.css">
+<!--Link for the css-->    
+<link rel="stylesheet" href="CSS/common.css">
+<!--Link for the css-->
+<link rel="stylesheet" href="CSS/form.css">
+
+
+    
+<!--MetaDatas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/indeximages/escudooriginal.png">
+<meta charset="utf-8">
+<!--Autor name-->
+<meta name="author" content="Ander Montero Maza">
+<!--English language-->
+<meta name="description" content="Final Proyect">
+<!--Closed head tag-->
+
+</head>    
+    
+    
+    
+<body> 
+    <a id="start"></a>
+    <br>
+<h1>Do you want to be a member of Valencia C.F?</h1>
+    <br>
+   <section class="sectionform col-so-12"> 
+   <div class="divform col-so-11"> 
+       <div class="divform2 col-so-11">
+           <br>
+<p>Where do you want to watch the games?</p>
+<br>
+<select id="seat" name="seat">
+  <option value="" selected label="Select the seat">Select the seat</option>
+  <option value="1" label="1"></option>
+  <option value="2" label="2"></option>
+  <option value="3" label="3"></option>
+  <option value="4" label="4"></option>
+  <option value="5" label="5"></option>
+  <option value="6" label="6"></option>
+  <option value="7" label="7"></option>
+</select><br><br><br>
+
+
+<p>Do you want to travel with us to see the games in which we play as visitors?</p>
+<br>
+<select id="visitor" name="visitor">
+  <option value="" selected label="-"></option>
+  <option value="yes" label="Yes"></option>
+  <option value="no" label="No"></option>
+</select><br><br><br>
+    
+<p>In addition to the "Santander" league, would you like to see other championships that we play?</p><br>
+ 
+<p>"COPA DEL REY"</p>
+           <br>
+<select id="kingscup" name="kingscup">
+  <option value="" selected label="-"></option>
+  <option value="yes" label="Yes">Yes</option>
+  <option value="no" label="No">No</option>
+</select><br><br><br>
+       
+<p>"EUROPA LEAGUE"</p> 
+           <br>
+<select id="europaleague" name="europaleague">
+  <option value="" selected label="-"></option>
+  <option value="yes" label="Yes">Yes</option>
+  <option value="no" label="No">No</option>
+</select><br><br><br>
+
+
+<button type="button" onclick="result()">Calculate</button>
+
+<button type="button" onclick="location.reload()">Reset</button>
+<br><br>
+<p id="message"></p><br><br>
+       </div>
+       </div>
+       
+       
+       <div class="divformimg col-so-11">
+     <img class="col-so-11 imgform" src="images/indeximages/stadium.png" alt="stadium">
+       </div>
+       
+       
+    </section> <br><br>
+    
+    <div class="buttonhome"> 
+    <button class="football-button" onclick="location.href='index.html'">HOME</button>
+    </div>
+    
+     <div class="backgroundimagefooter"></div>
+    
+    <footer>
+    
+        <div class="divtitlesponsors"><h3 class="h3sponsors">OFICIAL PARTNERS</h3></div>
+        
+    <section class="bigcontainersmallsponsors col-8 col-s-8">
+        
+        <div class="divsmallsponsors col-so-6 col-s-6 col-6">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.cazoo.co.uk/about-us/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/cazoo-black.svg" alt="cazoosponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-6 col-s-6 col-6">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://eu.puma.com/es/es/404"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/puma-logo.svg" alt="pumasponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-4 col-4">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://grupoherrerobrigantina.eu/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/herrero-brigantina.svg" alt="herrerosponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-4 col-4">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.skoda.es/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/skoda.svg" alt="skodasponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-4 col-4">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.sailun-tyres.eu/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/sailun_tyre.svg" alt="sailunsponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-3 col-3">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.cocacola.es/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/coca-cola.svg" alt="cocacolasponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-3 col-3">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.amstel.es/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/amstel.svg" alt="amstelsponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-3 col-3">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.socios.com/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/VCFFanToken.svg" alt="vcffansponsor">
+        </a></div>
+        <div class="divsmallsponsors col-so-3 col-s-3 col-3">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.vitaldent.com/es/"><img class="imgsmallsponsors col-so-6" src="images/indeximages/sponsors/vitaldent.svg" alt="vitaldentsponsor">
+        </a></div>
+        
+        
+        <div class="divtitlesponsors"><h3 class="h3sponsors2">VCF SOCIAL MEDIAS</h3></div>
+        
+        <div class="divsmallsponsors col-so-12 col-s-12 col-12">
+        <div class="divsmallsponsors limits col-so-2 col-s-2 col-2">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.instagram.com/valenciacf/"><img class="imgsmallsponsors col-so-6" src="images/socialmedia/blackinstagram_low-removebg-preview.png" alt="instagrammedia">
+        </a></div>
+            
+        <div class="divsmallsponsors limits col-so-2 col-s-2 col-2">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.tiktok.com/@valenciacf"><img class="imgsmallsponsors col-so-6" src="images/socialmedia/blackticktok-PhotoRoom.png-PhotoRoom.png" alt="tiktokmedia">
+        </a></div>
+            
+        <div class="divsmallsponsors limits col-so-2 col-s-2 col-2">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://twitter.com/valenciacf"><img class="imgsmallsponsors col-so-6" src="images/socialmedia/blacktwitter-removebg-preview.png" alt="twittermedia">
+        </a></div>
+            
+        <div class="divsmallsponsors limits col-so-2 col-s-2 col-2">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.youtube.com/valenciacf"><img class="imgsmallsponsors col-so-6" src="images/socialmedia/blackyoutube-removebg-preview.png" alt="YTmedia">
+        </a></div>
+            
+        <div class="divsmallsponsors limits col-so-2 col-s-2 col-2">
+        <a class="linkssmallsponsors col-s-10 col-10" href="https://www.facebook.com/ValenciaCF/"><img class="imgsmallsponsors col-so-6" src="images/socialmedia/blackfacebook-removebg-preview.png" alt="facebookmedia">
+        </a></div>
+        <div class="divsmallsponsors limits col-so-2 col-s-2 col-2">
+        <a class="linkssmallsponsors col-s-10 col-10" href="#start"><img class="imgbookmarck" src="images/indeximages/flechapng.png" alt="facebookmedia">
+        </a></div>
+        </div>
+      
+        
+    </section>
+        
+    </footer>
+    
+
+
+<script>
+function result() {
+  var seat = document.getElementById("seat").value;
+  var visitor = document.getElementById("visitor").value;
+  var kingscup = document.getElementById("kingscup").value;
+  var europaleague = document.getElementById("europaleague").value;
+  let r;
+
+  if (visitor == "" || seat == "" || kingscup == "" || europaleague == "") {
+      
+      
+         document.getElementById("message").innerHTML =
+      "Some of the fields is not filled in."; 
+      
+      
+  } else {
+    switch (seat) {
+      case "1":
+        r = 200;
+        break;
+      case "2":
+        r = 300;
+        break;
+      case "3":
+        r = 200;
+        break;
+      case "4":
+        r = 250;
+        break;
+      case "5":
+        r = 350;
+        break;
+      case "6":
+        r = 350;
+        break;
+      case "7":
+        r = 400;
+        break;
+    }
+
+    if (visitor == "yes") {
+      r += 375;
+    }
+
+    if (kingscup == "yes") {
+      r += 250;
+    }
+
+    if (europaleague == "yes") {
+      r += 1000;
+    }
+
+    document.getElementById("message").innerHTML =
+      "The price for becoming a member of VCF is: " + r + "€";
+  }
+}
+
+function resetForm() {
+  document.getElementById("seat").value = "";
+  document.getElementById("visitor").value = "";
+  document.getElementById("kingscup").value = "";
+  document.getElementById("europaleague").value = "";
+  document.getElementById("message").innerHTML = "";
+}
+</script>
+    </body>
+</html>

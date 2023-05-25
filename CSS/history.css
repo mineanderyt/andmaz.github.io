@@ -1,0 +1,114 @@
+* { /*Global Addings*/
+padding: 0;  margin: 0; 
+box-sizing: border-box;
+}
+
+.bigdivdelimiter{
+    
+    width: 100%;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ 
+    
+}
+
+.smalldivdelimiter{
+    
+    width: 70%;
+    
+    
+    
+}
+.mediumdivdelimiter{
+    
+    width: 60%;
+    
+    background-color: rgb(50,50,50,0.8);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    
+}
+
+h2{
+   font-size: 1.7vw;
+    color: rgb(0, 0, 0, 1);
+    
+}
+
+p{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    font-size: 0.85vw;
+    color: whitesmoke;
+}
+
+.h2{
+   font-size: 1.7vw;
+    margin-top: 3vw;
+    
+}
+
+.hrtitle{
+    
+    border-color: rgb(0, 0, 0, 1);
+    border-width: 0.2vw;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+.hrtitle1{
+    
+    border-color: rgb(0, 151, 215, 1);
+    border-width: 0.2vw;
+    z-index: 1;
+    width: 70%;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.divtitlepage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+     padding-bottom: 4vw;
+    padding-top: 20vw;
+    background-image: url(../images/indeximages/N8KnqQPDgxC6fgI7oSKMoHGD3cTneEl9jBvPV5O64RIeKO22GmwhAatoDiOv6vyM.jpeg);
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    
+    
+}
+h4{
+    text-align: left;
+    font-weight: bold;
+    width: 70%;
+    font-size: 2.5vw;
+    color: rgb(255,255, 255, 1);
+}
+
+body{
+    
+    background-color: rgb(200,200,200,1);
+    background-image: url(../images/indeximages/original-0222.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 11.60vw;
+    
+}
